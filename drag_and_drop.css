@@ -1,0 +1,35 @@
+.board{
+    display:flex; 
+    flex-wrap: wrap;
+    width:300px;
+    height: 300px;
+}
+.board>div{
+    width:98px;
+    height:98px;
+    border:1px solid red;
+}
+.imagesContainer{
+    width:580px;
+    height: fit-content;
+    border:2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.imagesContainer>div{
+    width:100px;
+    height: 100px;
+    border:4px dashed tomato;
+}
+.imagesContainer>div>img{
+    width:100px;
+    height: 100px;
+}
+#resultText{
+    display:flex;
+    align-items:center;
+}
+.resetBut{
+    margin-left:8px;
+}
